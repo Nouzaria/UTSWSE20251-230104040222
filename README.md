@@ -1,8 +1,3 @@
- Tentu. Ini adalah versi `README.md` yang telah diintegrasikan, menggabungkan detail proyek **Courses** kamu dengan struktur dan format profesional dari file contoh (`Contoh_Readme_File.txt`) yang kamu berikan.
-
-Salin dan tempel (copy-paste) kode di bawah ini langsung ke file `README.md` kamu di VSCode.
-
------
 
 # 🎯 UTS Web Service — RESTful API (Courses)
 
