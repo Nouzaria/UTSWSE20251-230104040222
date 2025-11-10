@@ -51,16 +51,16 @@ uts-backend/
 
 ## 🧮 7 RESTful Principles yang Diterapkan
 
-[cite\_start]Tabel ini merangkum 7 Prinsip RESTful yang diimplementasikan dalam proyek ini[cite: 12, 13, 14, 15, 16, 17]:
+Tabel ini merangkum 7 Prinsip RESTful yang diimplementasikan dalam proyek ini:
 
 | No | Prinsip | Implementasi di Proyek |
 | :--- | :--- | :--- |
-| 1 | **Resource-Oriented URI** | [cite\_start]Menggunakan kata benda jamak: `/api/courses`[cite: 12]. |
-| 2 | **Proper HTTP Methods** | [cite\_start]Menggunakan `GET`, `POST`, `PUT`, `DELETE` sesuai fungsinya[cite: 13]. |
-| 3 | **Stateless Communication** | [cite\_start]Server tidak menyimpan *state* atau *session* klien[cite: 14]. |
-| 4 | **Consistent Status Codes** | [cite\_start]Menggunakan `200`, `201`, `204`, `400`, `404` sesuai kondisi[cite: 15]. |
-| 5 | **JSON Representation** | [cite\_start]Semua respons dari API dikembalikan dalam format JSON[cite: 16]. |
-| 6 | **Validation & Error Handling** | [cite\_start]Melakukan validasi input (field wajib) dan mengembalikan pesan error 400[cite: 17]. |
+| 1 | **Resource-Oriented URI** | Menggunakan kata benda jamak: `/api/courses`. |
+| 2 | **Proper HTTP Methods** | Menggunakan `GET`, `POST`, `PUT`, `DELETE` sesuai fungsinya. |
+| 3 | **Stateless Communication** | Server tidak menyimpan *state* atau *session* klien. |
+| 4 | **Consistent Status Codes** | Menggunakan `200`, `201`, `204`, `400`, `404` sesuai kondisi. |
+| 5 | **JSON Representation** | Semua respons dari API dikembalikan dalam format JSON. |
+| 6 | **Validation & Error Handling** | Melakukan validasi input (field wajib) dan mengembalikan pesan error 400. |
 | 7 | **Discoverability** | Menyediakan endpoint `/api/info` untuk identitas API. |
 
 -----
@@ -73,9 +73,9 @@ API ini berjalan di `http://localhost:3000`.
 | :--- | :--- | :--- | :--- | :--- |
 | `GET` | `/api/courses` | Mengambil semua data mata kuliah. | `200 OK` | - |
 | `GET` | `/api/courses/:id` | Mengambil data mata kuliah berdasarkan ID. | `200 OK` | `404 Not Found` |
-| `POST` | `/api/courses` | [cite\_start]Menambahkan data mata kuliah baru[cite: 21]. | `201 Created` | `400 Bad Request` |
-| `PUT` | `/api/courses/:id` | [cite\_start]Memperbarui data mata kuliah berdasarkan ID[cite: 22]. | `200 OK` | `400 Bad Request` / `404 Not Found` |
-| `DELETE` | `/api/courses/:id` | [cite\_start]Menghapus data mata kuliah berdasarkan ID[cite: 24]. | `204 No Content` | `404 Not Found` |
+| `POST` | `/api/courses` | Menambahkan data mata kuliah baru. | `201 Created` | `400 Bad Request` |
+| `PUT` | `/api/courses/:id` | Memperbarui data mata kuliah berdasarkan ID. | `200 OK` | `400 Bad Request` / `404 Not Found` |
+| `DELETE` | `/api/courses/:id` | Menghapus data mata kuliah berdasarkan ID. | `204 No Content` | `404 Not Found` |
 | `GET` | `/api/info` | Menampilkan informasi dan identitas API. | `200 OK` | - |
 
 -----
