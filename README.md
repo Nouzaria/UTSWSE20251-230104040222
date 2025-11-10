@@ -1,12 +1,21 @@
 
 # 🎯 UTS Web Service — RESTful API (Courses)
 
+---
+
+## 👨‍💻 Author
+
+Dikerjakan sebagai bagian dari Ujian Tengah Semester (UTS) Mata Kuliah Web Service.
+
+* **Nama:** Achmad Fauzil 'Adhim
+* **NIM:** 230104040222
+
 **Topik:** Implementasi CRUD RESTful (7 RESTful Principles) untuk resource Courses  
 **Mata Kuliah:** Web Service
 
 -----
 
-## C. Tujuan
+## Tujuan
 
 Berdasarkan deskripsi tugas, tujuan dari proyek ini adalah:
 
